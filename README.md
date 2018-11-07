@@ -1,0 +1,2 @@
+# SimpleProjectServer
+Simple project
