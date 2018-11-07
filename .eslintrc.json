@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "mocha": true,
+        "es6": true,
+        "node": true,
+        "amd": true
+    },
+    
+    "extends": "eslint:recommended",
+    "parser": "typescript-eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "modules": true
+        },
+        "amd":true,
+        "sourceType":"module"
+    },
+    "rules": {
+        "no-useless-escape":"off",
+        "no-undef":"warn",
+        "no-unused-vars":"warn",
+        "no-console": 0,
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

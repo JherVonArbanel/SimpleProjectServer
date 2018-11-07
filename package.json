@@ -1,0 +1,35 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "Simple mongo type server",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint app --fix --ext ts",
+    "test": "mocha -r ts-node/register -r ignore-styles app/**/*.spec.ts",
+    "build": "eslint app --ext ts && tsc",
+    "start": "node dist/server.js"
+  },
+  "author": "Jherzn Franz Nava Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/es6-promise": "^3.3.0",
+    "@types/mongoose": "^5.3.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "ignore-styles": "^5.0.1",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.3.10",
+    "typescript": "^3.1.6",
+    "typescript-eslint-parser": "^20.1.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1"
+  }
+}
