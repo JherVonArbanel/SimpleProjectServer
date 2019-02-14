@@ -1,5 +1,5 @@
 {
-  "name": "simpleserver",
+  "name": "simpleserver1",
   "version": "1.0.0",
   "description": "Simple mongo type server",
   "main": "index.js",
